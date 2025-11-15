@@ -1,0 +1,11 @@
+diff --git a/pnpm-compat-note.txt b/pnpm-compat-note.txt
+new file mode 100644
+index 0000000..4b15a35
+--- /dev/null
++++ b/pnpm-compat-note.txt
+@@
++This package is patched during the Catalogo de Pinturas build to maintain
++alignment with pnpm's patchedDependencies configuration.
++
++The file exists solely to make the patch reproducible across environments and
++does not modify the runtime behaviour of wouter.
